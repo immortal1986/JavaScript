@@ -5,4 +5,5 @@ function getLength(str) {
 var str = '!';
 var sum = getLength('hello') + 'world'.length + str.length;
 
-window.console.log(sum);
+var elem = getElementById('result');
+elem.html(sum);
